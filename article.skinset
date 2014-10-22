@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<st:skinSet xmlns:sc="http://www.utc.fr/ics/scenari/v3/core" xmlns:st="scenari.eu:styler:1.0" keyExt="OptimOffice1-3-test" majorVersion="0" mediumVersion="1" minorVersion="2" codeSkin="article">
+	<st:parentWspKey key="OptimOffice1-3"/>
+	<st:description name="Article" lang="fr-FR"/>
+	<st:generator code="genPrint" owner="OptimExtGenPrint1-3" type="sm_webSiteGenerator">
+		<st:skin sc:refUri="/pdf-article-cm.skin.doss"/>
+		<st:rootModels>
+			<st:rootModel code="of_paper" owner="OptimOffice1-3"/>
+			<st:rootModel code="of_section" owner="OptimOffice1-3"/>
+			<st:rootModel code="of_webSite" owner="OptimOffice1-3"/>
+		</st:rootModels>
+	</st:generator>
+	<st:generator code="site" owner="OptimOffice1-3" type="sm_webSiteGenerator">
+		<st:skin sc:refUri="/web-boxed-wol.skin.doss"/>
+		<st:rootModels>
+			<st:rootModel code="of_paper" owner="OptimOffice1-3"/>
+			<st:rootModel code="of_slideshow" owner="OptimOffice1-3"/>
+			<st:rootModel code="of_webSite" owner="OptimOffice1-3"/>
+			<st:rootModel code="of_section" owner="OptimOffice1-3"/>
+		</st:rootModels>
+	</st:generator>
+</st:skinSet>
