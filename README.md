@@ -1,4 +1,4 @@
-styler
+Styler
 ======
 
 SCENARIstyler
